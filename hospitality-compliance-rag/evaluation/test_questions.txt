@@ -1,0 +1,35 @@
+# UK Hospitality Licensing Compliance — Evaluation Questions
+# 30 realistic questions covering the full scope of the Licensing Act 2003
+# Format: QUERY_ID | TOPIC_CATEGORY | QUESTION
+# ─────────────────────────────────────────────────────────────────────────
+
+Q01 | licensing_objectives | What are the four licensing objectives under the Licensing Act 2003?
+Q02 | premises_licence | What activities require a premises licence under the Licensing Act 2003?
+Q03 | premises_licence | How do I apply for a new premises licence in England and Wales?
+Q04 | premises_licence | What documents must be submitted with a premises licence application?
+Q05 | premises_licence | How long does a premises licence last once granted?
+Q06 | personal_licence | Who needs to hold a personal licence to authorise the sale of alcohol?
+Q07 | personal_licence | What qualifications are needed to obtain a personal licence?
+Q08 | personal_licence | Can a personal licence be revoked, and on what grounds?
+Q09 | personal_licence | What is the role of the Designated Premises Supervisor (DPS) under the Act?
+Q10 | temporary_event | What is a Temporary Event Notice (TEN) and when is it required?
+Q11 | temporary_event | How many Temporary Event Notices can a premises receive in a calendar year?
+Q12 | temporary_event | What is the minimum notice period required for a standard Temporary Event Notice?
+Q13 | temporary_event | On what grounds can police or environmental health object to a TEN?
+Q14 | temporary_event | What is the difference between a standard TEN and a late TEN?
+Q15 | review | Under what circumstances can a licensing authority review a premises licence?
+Q16 | review | Who can apply for a review of a premises licence?
+Q17 | review | What powers does a licensing authority have following a licence review?
+Q18 | enforcement | What closure powers do the police have in relation to licensed premises?
+Q19 | enforcement | What is a closure order and how long can it last?
+Q20 | enforcement | Can a premises operate without a designated premises supervisor?
+Q21 | late_night_levy | What is the Late Night Levy and which premises does it apply to?
+Q22 | early_morning | What is an Early Morning Restriction Order and who can apply for one?
+Q23 | appeals | How can a licensing decision be appealed under the Licensing Act 2003?
+Q24 | appeals | What is the time limit for appealing a licensing authority decision?
+Q25 | fees | How are premises licence fees calculated, and who sets them?
+Q26 | licensing_objectives | How should a licence applicant demonstrate steps to promote the licensing objectives?
+Q27 | premises_licence | What is a licence variation and when would a premises need to apply for one?
+Q28 | premises_licence | Can a premises licence be transferred, and what is the process?
+Q29 | personal_licence | Does a personal licence holder need to be present on the premises at all times?
+Q30 | enforcement | What are the penalties for selling alcohol outside of licensed hours?

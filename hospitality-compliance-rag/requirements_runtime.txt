@@ -1,0 +1,29 @@
+# =============================================================================
+# requirements_runtime.txt
+# Install on the Streamlit deployment ONLY.
+# This file intentionally OMITS:
+#   - sentence-transformers  (no local model at runtime)
+#   - torch / transformers   (no local model at runtime)
+#   - pdfplumber / pypdf     (PDFs processed offline during ingestion)
+#   - ragas / langchain*     (evaluation only, not needed for serving)
+#   - pytest                 (dev/test only)
+#
+# Query embedding at runtime is handled by the Pinecone Inference API.
+# =============================================================================
+
+# --- Web UI -----------------------------------------------------------------
+streamlit>=1.35,<2.0
+
+# --- Vector store (query only — no upsert at runtime) -----------------------
+pinecone>=4.0,<6.0
+
+# --- LLM client -------------------------------------------------------------
+openai>=1.30,<2.0
+
+# --- Sparse retrieval (BM25 loaded from .pkl — no rebuild at runtime) -------
+rank-bm25==0.2.2
+nltk>=3.8                      # tokenisation for BM25 query
+
+# --- Utilities --------------------------------------------------------------
+numpy>=1.26
+python-dotenv>=1.0             # fallback for local dev; use st.secrets in production

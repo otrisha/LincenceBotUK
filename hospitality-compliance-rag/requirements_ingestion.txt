@@ -1,0 +1,40 @@
+# =============================================================================
+# requirements_ingestion.txt
+# Install in the INGESTION environment only — never on the Streamlit deployment.
+# Usage: pip install -r requirements_ingestion.txt
+#
+# This file intentionally includes heavy dependencies (sentence-transformers,
+# torch, pdfplumber, ragas, langchain) that must NOT appear in requirements_runtime.txt.
+# =============================================================================
+
+# --- PDF extraction ----------------------------------------------------------
+pypdf>=4.0,<5.0
+pdfplumber>=0.10,<1.0          # richer block + table extraction with bounding boxes
+
+# --- Embeddings (INGESTION ONLY — never import at runtime) -------------------
+sentence-transformers>=2.7,<3.0
+torch>=2.0                     # sentence-transformers dependency
+
+# --- Vector store -----------------------------------------------------------
+pinecone>=4.0,<6.0             # serverless client; upsert during ingestion
+
+# --- Sparse retrieval -------------------------------------------------------
+rank-bm25==0.2.2
+nltk>=3.8                      # tokenisation for BM25 index build
+
+# --- LLM client (needed by evaluation) -------------------------------------
+openai>=1.30,<2.0
+
+# --- RAGAS evaluation pipeline ----------------------------------------------
+ragas>=0.1,<0.3
+datasets>=2.18
+langchain>=0.2,<0.4
+langchain-openai>=0.1,<0.3
+langchain-community>=0.2,<0.4
+
+# --- Utilities --------------------------------------------------------------
+numpy>=1.26
+pandas>=2.2
+python-dotenv>=1.0
+tqdm>=4.66
+pytest>=8.0
