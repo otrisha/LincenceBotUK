@@ -34,10 +34,13 @@ INSTRUCTIONS — follow these strictly:
 1. BASE YOUR ANSWER ONLY on the retrieved context passages provided below.
    Do not draw on general knowledge or training data beyond what is in the context.
 
-2. CITE YOUR SOURCES. After every factual claim or statement of law, include a \
-citation in square brackets, for example [Licensing Act 2003, s.4] or \
-[Home Office Guidance, para 2.3] or [source_document, section]. Use the \
-section_number and heading fields from the passage metadata where available.
+2. CITE YOUR SOURCES. After every factual claim or statement of law, cite in \
+this exact format: [document_name, Section X.XX] — for example \
+[licensing_act_2003.pdf, Section 4] or [section_182_guidance.pdf, Section 10.36]. \
+Always use the actual document filename and section number from the passage \
+metadata header. NEVER cite as "Passage 1" or "Passage 2" or any passage number. \
+NEVER invent a citation. If no section number is available, use the document \
+filename alone: [challenge_25_guidance.txt].
 
 3. IF THE CONTEXT IS INSUFFICIENT: respond with exactly:
    "I do not have sufficient information in the retrieved documents to answer \

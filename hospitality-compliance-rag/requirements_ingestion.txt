@@ -7,6 +7,11 @@
 # torch, pdfplumber, ragas, langchain) that must NOT appear in requirements_runtime.txt.
 # =============================================================================
 
+# --- Document download + HTML scraping --------------------------------------
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0                      # fast HTML parser for BeautifulSoup
+
 # --- PDF extraction ----------------------------------------------------------
 pypdf>=4.0,<5.0
 pdfplumber>=0.10,<1.0          # richer block + table extraction with bounding boxes

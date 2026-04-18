@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./venv/Scripts/python.exe *)",
+      "Bash(/c/Users/HomePC/Desktop/LicenceBotUK/venv/Scripts/python.exe -m ingestion.document_loader)",
+      "Bash(/c/Users/HomePC/Desktop/LicenceBotUK/venv/Scripts/python.exe *)",
+      "Bash(pip install *)",
+      "Bash(python -m ingestion.embedder)",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/HomePC/Desktop/LicenceBotUK/venv/Scripts/python.exe -X utf8 tests/e2e_retrieval_test.py)",
+      "Bash(echo \"Streamlit PID: $!\")",
+      "Bash(curl -s http://localhost:8501)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501/healthz)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501)"
+    ]
+  }
+}

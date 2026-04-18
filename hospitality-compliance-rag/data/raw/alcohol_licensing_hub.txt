@@ -1,0 +1,255 @@
+Source: https://www.gov.uk/guidance/alcohol-licensing
+Fetched: 2026-04-17T19:28:52+00:00
+========================================================================
+
+## Alcohol licensing
+Information on the different types of alcohol licences available and guidance on how to apply for them.
+From:
+Home Office
+Published
+26 March 2013
+Last updated
+8 August 2025
+          — See all updates
+For general enquires on licensing you should contact your Local Licensing Authority.
+
+### Overview
+Businesses, organisations and individuals who want to sell or supply alcohol in England and Wales must have a licence or other authorisation from a licensing authority - usually a local council. The law and policy governing this area is overseen by the Home Office.
+The types of businesses and organisations that need alcohol licences might include:
+pubs and bars
+cinemas
+theatres
+nightclubs
+late-opening cafes
+takeaways
+village and community halls
+supermarkets
+The types of licences required are defined as follows:
+any business or other organisation that sells or supplies alcohol on a permanent basis needs to apply for a premises licence
+anyone who plans to sell or supply alcohol or authorise the sale or supply of alcohol must apply for a personal licence
+qualifying members’ clubs (such as the Royal British Legion, working men’s clubs and rugby clubs) need to apply for a club premises certificate if they plan to sell or supply alcohol
+To apply for a licence, you will need to complete an application form and send it to your local council licensing team, along with the fee. You may also need to send copies of your form (depending on the type of application you are making) to the police and other ‘responsible authorities’.
+You can apply online if your council accepts electronic applications. Use our licence finder to find the appropriate forms.
+Otherwise, you can apply by using the postal forms available in the relevant section of this guidance. If you do not know who your local council is, use our local council finder .
+Forms are also available for:
+temporary event notices
+early morning restriction orders
+designated supervisors
+variations
+You should also contact your local council for advice on the application process.
+
+#### Responsible authorities
+police
+local fire and rescue
+primary care trust (PCT) or local health board (LHB)
+the relevant licensing authority
+local enforcement agency for the Health and Safety at Work etc Act 1974
+environmental health authority
+planning authority
+body responsible for the protection of children from harm
+local trading standards
+any other licensing authority in whose area part of the premises is situated
+Home Office Immigration Enforcement (on behalf of the Secretary of State)
+The contact details for Home Office Immigration Enforcement (Licensing Compliance Team) are:
+Licensing Compliance Team (LCT) Home Office 2 Ruskin Square Dingwall Road Croydon CR0 2WF
+Email: IE.licensing.applications@homeoffice.gov.uk
+For general enquires on licensing you should contact your local council. Do not use the email address above.
+
+#### Fees under the Licensing Act 2003
+Licence fees are prescribed in regulations (the Licensing Act 2003 (Fees) Regulations 2005). The fees paid in respect of applications for new premises licences and club premises certificates; applications for full variations to premises licences and club premises certificates; and annual fees in respect of premises licences and club premises certificates vary dependent on the national non-domestic rateable value (NNDR) “band” of the premises. You can check your rateable value at the Valuation Office Agency website .
+Premises that are exempt from non-domestic rating are allocated to Band A. Premises that do not have a NNDR because they under construction are allocated to Band C.
+An “additional fee” may be payable in respect of large scale events, where 5,000 or more people are due to attend at a venue that is not purpose-built.
+Fees under the Licensing Act 2003 .
+
+#### Determining a licence application
+Where an application is properly made and no responsible authority or other person makes representations, the licensing authority must grant the application, subject only to conditions which are consistent with the operating schedule and relevant mandatory conditions in the act. This should be undertaken as a simple administrative process by the licensing authority’s officials.
+If representations are made by a responsible authority or other person, it is for the licensing authority to decide whether those representations are relevant to the licensing objectives and not frivolous or vexatious. If the licensing authority decides that any representations are relevant, then it must hold a hearing to consider them.
+At a hearing, the licensing authority may:
+grant the application subject to modifying conditions that are consistent with the operating schedule in a way it considers appropriate for the promotion of the licensing objectives
+reject one or more requested licensable activities
+reject the application
+refuse to specify a person as a designated premises supervisor
+All decisions of the licensing authority, and any conditions imposed, must be appropriate for the promotion of the licensing objectives. If you disagree with the council’s decision, you have a right of appeal to the magistrate’s court.
+See our guidance on community involvement in licensing .
+
+### Premises licence
+A premises licence authorises the use of any premises (which is defined in the Licensing 2003 Act as a vehicle, vessel or moveable structure or any place or a part of any premises) for licensable activities as defined in section 1 of the 2003 Act.
+You can apply online if your council accepts electronic applications, there is a separate online application depending on whether you are in England and Wales , Scotland or Northern Ireland .
+Alternatively you can view the postal forms and other guidance specific to premises licences , including:
+premises licence application
+premises licence guidance
+premises licence transfer application
+licence holder consent to transfer
+premises licence summary
+review of a premises licence or club premises certificate
+premises license format
+notification of an interest in premises
+interim authority notice under the Licensing Act 2003
+provisional statement application
+
+### Personal licence
+You are not required to have a personal licence to be employed in a pub or other business that sells alcohol. Premises licensed to sell alcohol must have a designated premises supervisor, who holds a personal licence. The one exception is a community premises that has successfully applied to waive the DPS requirement under section 41D of the act. Anyone who does not hold a personal licence must be authorised to sell alcohol by a personal licence holder. There is no such requirement for the supply of alcohol in a members’ club.
+Personal licences allow you to sell alcohol on behalf of any business that has a premises licence or a club premises certificate. The relationship is similar to the way that a driving licence permits the driving of any car.
+
+#### About the licence
+The personal licence is designed to ensure that anybody running or managing a business that sells or supplies alcohol will do so in a professional fashion. Once you receive your personal licence, you can act as the designated premises supervisor for any business that sells or supplies alcohol.
+
+#### Who can apply
+In order to apply, you must be aged 18 years or over, and (in almost all cases) hold a relevant licensing qualification - for example, the BIIAB Level 2 Award for Personal Licence Holders or a similar accredited qualification.
+If you are applying for a personal licence, you must obtain an accredited qualification first. The aim of the qualification is to ensure that licence holders are aware of licensing law and the wider social responsibilities involved in the sale of alcohol. Personal licence qualification providers are accredited by the Home Secretary.
+Download the full list of accredited personal licence qualification providers .
+Your local council will want to know of any relevant criminal convictions, and these may impact on whether or not you’re found to be suitable as a licensee. You will also need to provide a basic criminal conviction disclosure form.
+You can view the forms and guidance to apply for a personal licence to sell alcohol
+
+### Businesses buying alcohol from wholesalers
+Businesses that sell alcohol to the public will need to ensure that the UK wholesalers they buy alcohol from have been approved by HMRC under the Alcohol Wholesaler Registration Scheme (AWRS) . They will need to check the wholesaler’s Unique Registration Number (URN) against the HMRC online database.
+If a business is found to have purchased alcohol from an unapproved wholesaler, they may be liable to a penalty or could even face criminal prosecution and have their alcohol stock seized.
+
+### Designated premises supervisors
+A designated premises supervisor ( DPS ) is the person who has day-to-day responsibility for the running of the business.
+All businesses and organisations selling or supplying alcohol, except members clubs and certain community premises must have a designated premises supervisor.
+Whoever holds this role must be named in the operating schedule, which you will need to complete as part of the application process, when you apply for a premises licence.
+
+#### What the DPS does
+The person chosen to be designated premises supervisor ( DPS ) will act as primary contact for local government and the police. They must understand the social issues and potential problems associated with the sale of alcohol, and also have a good understanding of the business itself.
+While they need not be on site at all times, they are expected to be involved enough with the business to be able to act as its representative, and they must be contactable at all times.
+If the police or local government have any questions or concerns about the business, they will expect to be able to reach the designated supervisor.
+Each business may have only one supervisor selected for this role, but the same person may act as the designated supervisor at more than one business.
+
+#### Taking responsibility
+The Licensing Act requires the supervisor - and all personal licence holders - to take responsibility for the sale and supply of alcohol.
+This is because of the impact alcohol has on the wider community, on crime and disorder, and antisocial behaviour.
+Because of these issues, selling alcohol carries greater responsibility than licensing regulated entertainment and late night sales of food and non-alcoholic drinks.
+
+#### Becoming a DPS
+A designated premises supervisor must have a personal licence and must be nominated by the premises license holder for the role of designated supervisor.
+You must complete a consent form, which is provided as part of the online application for a premises licence, and can also be downloaded from the designated premises supervisor forms page.
+
+#### Changing a DPS
+You can apply to vary a DPS by following the online process in the premises licence section above. You can also download the variation form on the designated premises supervisor forms page.
+
+#### Community premises
+If you run or are involved in a community, church or village hall that wishes to sell alcohol or already sells it, you can apply for the sale of alcohol to be made the responsibility of a management committee instead of a premises supervisor. Or you can also apply to replace the designated premises supervisor, if you already have one, with the management committee. Read the guidance and form to apply for the sale of alcohol to be made the responsibility of a management committee instead of a premises supervisor .
+
+### Club premises certificates
+Members’ clubs can operate under club premises certificates instead of premises licences.
+This means, for example, that they are not required to have a designated premises supervisor, and sales of alcohol do not need to be authorised  by a personal licence holder.
+
+#### Qualifying clubs
+To be classified as a club for the purpose of this certificate, a group must meet several conditions.
+These include:
+legitimacy - each applicant must be a real club with at least 25 members
+a membership process that takes at least two days between application and acceptance
+alcohol must not be supplied on the premises other than by the club
+alcohol must be purchased by a committee made up of members all of whom are at least 18 years old
+alcohol for the club must be purchased legally
+Other legal restrictions for clubs operating under a club premises certificate are in the Licensing Act 2003 .
+You can apply online if your council accepts electronic applications.
+Alternatively you can view the postal forms and other guidance specific to club premises certificates
+
+### How do I change my licence or club certificate?
+If you wish to change any aspect of your licence or club certificate once it has been granted, you will need to apply to your local council for either a full or a minor variation.
+
+#### Full variations
+The full variation process is very similar to the application process for a new premises licence and the fee is the same. You should use this process if you want to make a substantial change to your licence, for example, increasing the hours when you sell alcohol.
+You can do this online using the links in the premises licence and club premises certificates sections above.
+Alternatively you can download the postal form and guidance to vary a premises licence and the postal form and guidance to vary a club certificate
+
+#### Minor variations
+If you want to make a small, low-risk change to your premises licence, you may be able to use the minor variation process. This is cheaper and quicker than the full variation application.
+Small changes could include:
+removing a licensable activity
+reducing the hours you sell alcohol
+making small changes to the layout of your premises
+If you apply for a minor variation and your application is rejected, you will not be able to appeal. However,  you can reapply using the full variation process.
+You can apply for a minor variation online using the links in the premises licence and club premises certificates sections above.
+Alternatively you can download the postal form and guidance for minor variations to a premises licence or club certificate .
+Contact your local council for advice on which process is more suitable for the change you want to make.
+
+### Temporary events
+If you’re organising a temporary event and want to serve or sell alcohol, provide late night refreshment, or put on regulated entertainment, you’ll need to complete a temporary event notice ( TEN ). For the purpose of a TEN , a temporary event is a relatively small-scale event attracting fewer than 500 people and lasting no more than 168 hours.
+If you are in England and Wales you can apply for a temporary event notice online .
+Alternatively you can download the postal form and guidance for a temporary event notice .
+In Scotland you can apply online for an occasional licence .
+
+### Community involvement in licensing
+Any person or business may make representations on premises licence applications or club premises certificate applications.
+
+#### Making representations
+You can make representations or comments to the council about applications for new licences, variations or reviews.
+Comments may be positive or negative, but will only be considered relevant by the council if they relate clearly to the licensing objectives:
+the prevention of crime and disorder
+public safety
+prevention of public nuisance
+the protection of children from harm
+Councils will also reject comments considered to be frivolous (not serious or time-wasting) or if they relate to personal disputes between businesses.
+
+#### Requesting a review of a licence
+You can also call for an existing licence to be reviewed by the council if you have concerns relating to the licensing objectives.
+In addition, the licensing authority must review a licence if the premises to which it relates was made the subject of a closure order by the police based on nuisance or disorder, and the magistrates’ court has sent the authority the relevant notice of its determination. A review must also be undertaken if the police have made an application for summary review on the basis that premises are associated with serious crime and/or disorder.
+
+#### Hearings
+If the council considers your reasons for making representations or calling for a review are relevant, it will arrange a hearing to consider the evidence. You - or someone representing you - will be invited to the hearing to explain your concerns.
+Representations and requests for the review of a licence must be made in writing. Forms can be obtained from your local council.
+If you disagree with the council’s decision following a hearing, you have the right to appeal to the magistrates’ court. Your council will be able to provide further details.
+
+### Licensable activities
+All businesses and organisations that undertake licensable activities on a permanent basis must have a premises licence from their local authority.
+
+#### Sale or supply of alcohol
+The sale by retail of alcohol and the supply of alcohol by or on behalf of a club are both licensable activities.
+
+#### Regulated entertainment
+Regulated entertainment is broadly defined as any entertainment that takes place in the presence of an audience (whether members of the public or a club), or otherwise for profit, and the premises have the purpose of providing the entertaining concerned. It may include:
+a performance of a play
+an exhibition of a film
+an indoor sporting event
+a boxing or wrestling entertainment
+a performance of live music
+playing of recorded music
+a performance of dance
+You can read information on whether you need approval to put on certain types of regulated entertainment
+For further information, see Schedule 1 to the Licensing Act 2003 .
+
+#### Late night refreshment
+Late night refreshment is the sale of hot food or drink to the public to consume off or on the premises) between 11pm and 5am. For further information, see Schedule 2 to the Licensing Act 2003 .
+
+### Mandatory licensing conditions
+The Licensing Act 2003 (Mandatory Conditions) order 2014 banned the sale of alcohol below the
+cost of duty plus VAT .
+The remaining mandatory conditions are set out in the Licensing Act 2003 (Mandatory Licensing Conditions) (Amendment) Order 2014:
+a ban on irresponsible promotions
+mandatory provision of free potable (drinking) water
+adoption of an age verification policy
+the mandatory provision of smaller measures
+For further information on these conditions, please see the guidance on mandatory
+licensing conditions .
+
+### Early morning restriction orders
+Early morning alcohol restriction orders ( EMRO ) enable a licensing authority to prohibit the sale of alcohol for a specified time between the hours of 12am and 6am in the whole or part of its area, if it is satisfied that this would be appropriate for the promotion of the licensing objectives.
+EMROs are designed to address recurring problems such as:
+high levels of alcohol-related crime and disorder in specific areas at specific times
+serious public nuisance
+other instances of alcohol-related antisocial behaviour which are not directly attributable to specific premises
+You can find the form for a licensing authority to make an EMRO , along with the form to make representations about a proposed EMRO , on the EMRO forms page .
+
+### UK GDPR
+The administration of the Licensing Act 2003, including receiving and determining all applications under the act, is carried out by licensing authorities based within local councils at district or unitary level. All applications made under the Licensing Act 2003 through gov.uk will be submitted directly to the relevant licensing authority, based on the post code entered at the start of the process. The Home Office is not responsible for the way licensing authorities store, process or share data, or for processing subject access requests. The Home Office does not receive, store or share personal data in relation to applications under the Licensing Act 2003, other than for the purpose of carrying out necessary immigration status checks on behalf of the licensing authority, as set out in relevant licensing forms and in the statutory guidance issued under s182 of the Act.
+
+### Updates to this page
+8 August 2025 Updated to reflect change of team and contact details.
+Updated to reflect change of team and contact details.
+19 April 2021 'GDPR' changed to 'UK GDPR'.
+'GDPR' changed to 'UK GDPR'.
+24 May 2018 Added paragraph on GDPR.
+Added paragraph on GDPR.
+20 July 2017 Updated information on accreditation for personal licences.
+Updated information on accreditation for personal licences.
+1 April 2017 New provisions for businesses buying alcohol from wholesalers come into force.
+New provisions for businesses buying alcohol from wholesalers come into force.
+6 October 2016 Information about the Alcohol Wholesalers Registration Scheme added.
+Information about the Alcohol Wholesalers Registration Scheme added.
+26 March 2013 First published.
+First published.
+
+### Sign up for emails or print this page

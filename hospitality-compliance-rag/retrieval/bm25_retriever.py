@@ -67,18 +67,27 @@ def _tokenise(text: str) -> list[str]:
 
 @dataclass
 class ChunkView:
-    """Minimal runtime view of a Chunk for BM25 results."""
-    chunk_id: str
+    """
+    Minimal runtime view of a chunk stored inside the BM25 index pickle.
+
+    Required fields (no default) must come first; optional fields at the end.
+    rrf_fusion.py accesses: chunk_id, source_document, text, heading,
+    section_number, page_number, topic_category.
+    """
+    chunk_id:        str
     source_document: str
-    text: str
-    bm25_text: str
-    heading: str
-    section_number: Optional[str]
-    page_number: int
-    chunk_index: int
-    token_count: int
-    topic_category: str = "general"
-    chunking_method: str = "section"
+    text:            str
+    bm25_text:       str
+    heading:         str
+    # --- optional / defaulted fields ---
+    section_number:  Optional[str] = None
+    page_number:     Optional[int] = None   # None for TXT-sourced chunks
+    chunk_index:     int           = 0
+    token_count:     int           = 0
+    char_count:      int           = 0
+    sub_chunk_index: Optional[int] = None
+    topic_category:  str           = "general"
+    chunking_method: str           = "section"
 
 
 # ---------------------------------------------------------------------------

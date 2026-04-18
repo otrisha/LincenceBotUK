@@ -26,7 +26,14 @@ Run locally:
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
+
+# Ensure project root is on sys.path so retrieval/generation packages resolve
+# whether Streamlit is launched from the project root or the app/ subdirectory.
+_ROOT = Path(__file__).parent.parent.resolve()
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
 
 import streamlit as st
 
@@ -59,6 +66,8 @@ for _k in (
     "PINECONE_NAMESPACE",
     "PINECONE_EMBED_MODEL",
     "PINECONE_DIMENSION",
+    "PINECONE_CLOUD",
+    "PINECONE_REGION",
     "BM25_INDEX_PATH",
     "TOP_K_BM25",
     "TOP_K_DENSE",
