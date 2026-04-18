@@ -1,6 +1,6 @@
 # UK Hospitality Licensing Compliance Assistant
 
-**Live app: [licencebotuk.streamlit.app](https://licencebotuk.streamlit.app)**
+**Live app: [licencebotuk.streamlit.app](https://lincencebotuk.streamlit.app)**
 
 A **Hybrid Retrieval-Augmented Generation (RAG)** chatbot that answers UK hospitality licensing questions using the Licensing Act 2003 and associated statutory guidance as its exclusive knowledge source.
 
