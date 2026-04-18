@@ -10,7 +10,8 @@
       "Bash(echo \"Streamlit PID: $!\")",
       "Bash(curl -s http://localhost:8501)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501/healthz)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501)",
+      "Bash(git push *)"
     ]
   }
 }
