@@ -33,6 +33,10 @@ ROOT = Path(__file__).parent.parent
 BM25_INDEX_PATH = Path(
     os.getenv("BM25_INDEX_PATH", ROOT / "retrieval" / "bm25_index.pkl")
 )
+CHUNKS_JSON_PATH = ROOT / "data" / "processed" / "chunks.json"
+
+BM25_K1: float = float(os.getenv("BM25_K1", 1.5))
+BM25_B:  float = float(os.getenv("BM25_B",  0.75))
 
 TOP_K_BM25: int = int(os.getenv("TOP_K_BM25", 7))
 
@@ -111,17 +115,60 @@ class BM25Index:
         """
         Deserialise the BM25 index from disk.
 
-        The pickled object was produced by ingestion/run_ingestion.BM25Index.
-        We return it as-is; the ingestion-side class attributes are compatible.
+        Falls back to rebuilding from chunks.json if the pkl is missing
+        (e.g. on Streamlit Cloud where ingestion cannot run).
         """
         if not path.exists():
+            if CHUNKS_JSON_PATH.exists():
+                return cls._build_from_chunks_json()
             raise FileNotFoundError(
-                f"BM25 index not found at {path}.\n"
-                "Run ingestion first: python -m ingestion.run_ingestion"
+                f"BM25 index not found at {path} and no chunks.json at "
+                f"{CHUNKS_JSON_PATH}. Run ingestion first."
             )
         with open(path, "rb") as f:
             obj = pickle.load(f)
         return obj
+
+    @classmethod
+    def _build_from_chunks_json(cls, path: Path = CHUNKS_JSON_PATH) -> "BM25Index":
+        """
+        Build the BM25 index in-memory from data/processed/chunks.json.
+
+        Used as a fallback on Streamlit Cloud where the pre-built pkl is not
+        available. Takes ~1s for 931 chunks. The result is NOT saved to disk
+        (Streamlit Cloud's filesystem is ephemeral and read-only in /mount/src).
+        """
+        import json
+        print(f"BM25 pkl not found — rebuilding from {path} ...")
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        chunk_views: list[ChunkView] = []
+        for c in data:
+            meta = c.get("metadata", c)
+            sub = meta.get("sub_chunk_index")
+            chunk_id = (
+                f"{meta['source_document']}_"
+                f"{meta['chunk_index']}_"
+                f"{sub if sub is not None else '0'}"
+            )
+            chunk_views.append(ChunkView(
+                chunk_id        = chunk_id,
+                source_document = meta.get("source_document", ""),
+                text            = c.get("text", ""),
+                bm25_text       = c.get("text", ""),
+                heading         = meta.get("section_number") or "",
+                section_number  = meta.get("section_number"),
+                page_number     = meta.get("page_number"),
+                chunk_index     = meta.get("chunk_index", 0),
+                char_count      = meta.get("char_count", 0),
+                sub_chunk_index = sub,
+            ))
+
+        corpus = [_tokenise(cv.bm25_text) for cv in chunk_views]
+        bm25_model = BM25Okapi(corpus, k1=BM25_K1, b=BM25_B)
+        print(f"BM25 index rebuilt from {len(chunk_views)} chunks.")
+        return cls(chunks=chunk_views, bm25_model=bm25_model)
 
     def search(
         self,

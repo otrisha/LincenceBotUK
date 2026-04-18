@@ -25,8 +25,9 @@ ENV/
 
 # Data — raw PDFs and processed artefacts
 data/raw/*.pdf
-data/processed/
+data/processed/document_hashes.json
 retrieval/bm25_index.pkl
+# chunks.json is committed so Streamlit Cloud can rebuild the BM25 index at startup
 
 # Evaluation outputs
 evaluation/results/*.csv
