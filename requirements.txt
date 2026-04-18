@@ -1,0 +1,12 @@
+# Streamlit Cloud runtime dependencies
+# Installed from the repo root — the path Streamlit Cloud resolves by default.
+
+streamlit>=1.35,<2.0
+pinecone>=4.0,<6.0
+openai>=1.30,<2.0
+rank-bm25==0.2.2
+nltk>=3.8
+numpy>=1.26
+python-dotenv>=1.0
+requests>=2.31
+beautifulsoup4>=4.12
