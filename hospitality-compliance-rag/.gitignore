@@ -51,3 +51,7 @@ logs/
 
 # NLTK data downloaded at runtime (cached locally, not committed)
 nltk_data/
+
+# Claude Code
+.claude/
+CLAUDE.md
