@@ -47,3 +47,6 @@ logs/
 
 # HuggingFace model cache (ingestion only — never at runtime)
 ~/.cache/huggingface/
+
+# NLTK data downloaded at runtime (cached locally, not committed)
+nltk_data/

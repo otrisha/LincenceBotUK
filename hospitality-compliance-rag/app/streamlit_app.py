@@ -35,6 +35,28 @@ _ROOT = Path(__file__).parent.parent.resolve()
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
+# ---------------------------------------------------------------------------
+# NLTK data bootstrap — runs on first startup, caches in nltk_data/
+# Required before any import of retrieval.bm25_retriever (which calls nltk).
+# On Streamlit Cloud the standard download dirs are read-only; we write to a
+# local nltk_data/ folder inside the repo instead.
+# ---------------------------------------------------------------------------
+import nltk
+
+_NLTK_DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "nltk_data")
+os.makedirs(_NLTK_DATA_DIR, exist_ok=True)
+if _NLTK_DATA_DIR not in nltk.data.path:
+    nltk.data.path.append(_NLTK_DATA_DIR)
+
+for _pkg in ("punkt", "punkt_tab", "stopwords"):
+    try:
+        nltk.data.find(f"tokenizers/{_pkg}")
+    except LookupError:
+        try:
+            nltk.data.find(f"corpora/{_pkg}")
+        except LookupError:
+            nltk.download(_pkg, download_dir=_NLTK_DATA_DIR, quiet=True)
+
 import streamlit as st
 
 # Load .env for local development; in Streamlit Cloud use st.secrets instead
