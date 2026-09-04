@@ -6,6 +6,17 @@ A **Hybrid Retrieval-Augmented Generation (RAG)** chatbot that answers UK hospit
 
 Built for pub landlords, hotel managers, restaurant owners, event organisers, and licensing applicants. Covers **England and Wales only** under the Licensing Act 2003.
 
+## Demonstrated Outputs
+
+This repository contains a deployed prototype and the supporting ingestion, retrieval, generation, testing, and evaluation code.
+
+- Processes seven licensing sources into **931 indexed vectors**, as reported by the ingestion workflow.
+- Combines BM25 and dense retrieval with Reciprocal Rank Fusion, preserving the strengths of exact legal-term matching and semantic search.
+- Includes a 30-question evaluation set, unit tests, and a six-query end-to-end retrieval diagnostic.
+- Produces source- and section-cited answers and includes an explicit England-and-Wales scope boundary and legal-information disclaimer.
+
+No user-adoption, accuracy, time-saving, or commercial-impact figures are claimed because the repository does not yet contain evidence for them. The next evidence milestone is to publish timestamped evaluation results against the stated targets below.
+
 ---
 
 ## What it does
